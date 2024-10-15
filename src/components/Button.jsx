@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({title, type}) {
+function Button({children, type, extraStyle, onclick}) {
   return (
-    <button className={`button-style w-[134px] py-[13px] text-white font-semibold text-[18px] rounded-[100px] mx-auto block`} type='{type}'>{title}</button>
+    <button onClick={onclick} className={`button-style w-[134px] py-[13px] text-white font-semibold text-[18px] rounded-[100px] mx-auto block ${extraStyle}`} type='{type}'>{children}</button>
   )
 }
 

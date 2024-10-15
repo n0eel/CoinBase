@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Overview() {
+function Transactions() {
   return (
     <div>
-      overview
+      
     </div>
   )
 }
 
-export default Overview
+export default Transactions

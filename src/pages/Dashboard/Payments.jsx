@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Overview() {
+function Payments() {
   return (
     <div>
-      overview
+      
     </div>
   )
 }
 
-export default Overview
+export default Payments

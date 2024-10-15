@@ -9,4 +9,39 @@ body {
 
 .button-style {
     background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    transition-duration: 5s;
+}
+
+.button-style:hover {
+    background: linear-gradient(90deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+.active {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+.notification-btn {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+.ant-btn {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    color: white;
+    font-weight: 600;
+}
+
+.ant-btn:hover {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%) !important;
+    color: white !important;
+}
+
+.search-input {
+    background-image: url(./assets/images/search-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 25px center;
+}
+
+.active-pending {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
 }

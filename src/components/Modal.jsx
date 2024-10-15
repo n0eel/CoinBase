@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Overview() {
+function Modal() {
   return (
     <div>
-      overview
+        Modal
     </div>
   )
 }
 
-export default Overview
+export default Modal
